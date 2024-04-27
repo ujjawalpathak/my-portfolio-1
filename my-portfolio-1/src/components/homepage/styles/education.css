@@ -1,0 +1,63 @@
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 16px;
+    overflow: hidden;
+}
+
+.card-header {
+    background: #f2f2f2;
+    color: #333;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.card-body {
+    padding: 16px;
+}
+
+.education-entry {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 16px;
+}
+
+.education-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-right: 16px;
+}
+
+.education-info {
+    flex-grow: 1;
+}
+
+.education-name {
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+}
+
+.education-degree {
+    font-size: 14px;
+    color: #666;
+}
+
+.education-dates {
+    font-size: 14px;
+    color: #666;
+    white-space: nowrap; /* Prevents dates from wrapping */
+}
+
+.education-courses {
+    font-size: 12px; /* Adjust the size as needed */
+    color: #666;
+    margin-top: 4px; /* Provides a little space between the degree and courses */
+}
+

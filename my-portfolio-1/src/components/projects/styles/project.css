@@ -1,0 +1,136 @@
+/* styles/project.css */
+.project {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+	background-color: #fff;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	border-radius: 10px;
+  }
+  
+  .project-container {
+	display: flex;
+	width: 100%;
+	text-decoration: none;
+  }
+  
+  .project-logo {
+	flex: 0 0 auto; /* Do not grow or shrink */
+	margin-right: 20px;
+  }
+  
+  .project-logo img {
+	width: 80px;
+	height: 80px;
+	border-radius: 40px; /* Circle shape */
+  }
+  
+  .project-info {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .project-title {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 5px;
+  }
+  
+  .project-description {
+	font-size: 16px;
+	color: #666;
+	margin-bottom: 10px;
+  }
+  
+  .project-link {
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+	color: #007bff; /* Bootstrap primary color */
+  }
+  
+  .project-link-icon {
+	margin-right: 5px;
+  }
+  
+  .project-link-text {
+	font-size: 16px;
+  }
+  
+/* styles/allProjects.css */
+.all-projects-card {
+	background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 16px;
+    overflow: hidden;
+  }
+  
+  .card-header {
+    background: #f2f2f2;
+    color: #333;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid #e1e1e1;
+  }
+  
+  .card-body {
+	padding: 16px;
+  }
+  
+  /* styles/project.css */
+  .project-link {
+	display: flex;
+	margin-bottom: 20px;
+	text-decoration: none;
+	color: inherit;
+  }
+  
+  .project-container {
+	display: flex;
+	width: 100%;
+  }
+  
+  .project-logo {
+	width: 80px;
+	height: 80px;
+	margin-right: 20px;
+	border-radius: 40px; /* Circle shape */
+	overflow: hidden;
+  }
+  
+  .project-details {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .project-title {
+	font-size: 18px;
+	font-weight: bold;
+  }
+  
+  .project-description {
+	font-size: 16px;
+	color: #666;
+  }
+  
+  .project-footer {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+  }
+  
+  .project-footer .fa-link {
+	margin-right: 5px;
+  }
+  
+  .project-link-text {
+	font-size: 16px;
+  }
+  
+  

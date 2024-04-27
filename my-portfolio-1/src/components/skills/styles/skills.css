@@ -1,0 +1,55 @@
+.skills-card {
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 20px auto;
+  padding: 20px;
+  width: 90%; /* Adjust width as needed */
+}
+
+.card-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.skill-section {
+  display: flex;
+  justify-content: space-between; /* Aligns items to the start and end of the container */
+  align-items: center; /* Vertically centers the items */
+  margin-bottom: 20px;
+}
+
+.skill-heading {
+  flex: 0 1 150px; /* Flex-basis of 150px */
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.skills-row {
+  display: flex;
+  flex: 1; /* Takes the remaining space */
+  justify-content: flex-start; /* Aligns the skills to the right */
+  flex-wrap: wrap;
+}
+
+.tech-skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+}
+
+.tech-skill img {
+  width: 50px; /* Adjust based on your preferences */
+  height: 50px;
+}
+
+.tech-skill span {
+  font-size: 14px;
+}
+
+.certification-image {
+  width: 100px; /* Adjust as needed */
+  height: auto;
+  margin: 5px;
+}

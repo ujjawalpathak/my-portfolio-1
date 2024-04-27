@@ -1,0 +1,62 @@
+.experience-entry {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .experience-logo-container {
+    margin-right: 20px;
+  }
+  
+  .experience-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+  }
+  
+  .experience-text {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+  }
+  
+  .experience-company {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .experience-title {
+    font-size: 16px;
+  }
+  
+  .experience-dates {
+    font-size: 16px;
+    color: #666;
+    margin-left: auto; /* This pushes the dates to the right */
+  }
+  
+  .experience-descriptions {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .experience-descriptions li {
+    margin-bottom: 5px;
+  }
+  
+  .fade-in {
+    animation: fadeIn 0.5s ease forwards;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateX(-20px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+  
